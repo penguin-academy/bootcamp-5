@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <!-- Este es el titulo-->
+        <title> Mi primera pagina web</title> 
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    </head>
+    <body>
+<!--
+    Crear un titulo con el siguiente texto: Hola Mundo. en h1
+-->
+<a href="{{ url_for('inicio') }}"> Inicio </a>
+    <a href="{{ url_for('contacto') }}"> Contacto </a>
+    
+    <h1> Hola Mundo </h1>
+    
+<!-- 
+    CHALLENGE:
+    Crear un titulo h2 con el texto: 
+    Mi nombre es..........
+    Crear un titulo h3 con el texto:
+    Y estoy en Penguin porque.........
+-->
+    <h2> Mi nombre es Steven </h2>
+    <h3> Y estoy en Penguin porque quiero inspirarles a creer que todo es posible. </h3>
+
+    <img src="static/perrito.webp" alt="perrito con lentes" width="300" height="250">
+<!-- 
+    CHALLENGE
+    Jugar con los valores width y height hasta hacer que la imagen del perrito se vea lo mas lindo posible.
+-->
+    </body>
+</html>

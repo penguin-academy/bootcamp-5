@@ -1,0 +1,17 @@
+h1 {
+    font-size : 2em;
+    color: #001aff;
+}
+/*
+CHALLENGE
+Dar formato a las etiquetas h2 y h3
+Pasandole el tamaño de la fuente, y un color.
+*/
+h2 {
+    font-size : 1em;
+    color: #5A7EEB;
+}
+h3 {
+    font-size : 0.5em;
+    color: rgb(68,41,41);
+}
